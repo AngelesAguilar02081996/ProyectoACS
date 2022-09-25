@@ -1,1 +1,152 @@
-# ProyectoACS
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Este es un ejemplo HTML ">
+	<meta name="keywords" content="HTML5,CSS3,JavaScript"/>
+    <title>Página Inicio</title>
+    <!-- Le damos estilo a nuestra pagina
+	-->
+	<style>
+		hear {
+			background-color: blueviolet;
+		}
+		
+		nav {
+			background-color: coral;
+		}
+		
+		section {
+			background-color: aqua;
+		}
+		
+		aside {
+		    background-color: beige;
+		}
+		
+		footer {
+		    background-color: blue;
+		}
+		
+		h2 {
+		   color: white;
+		   
+		}
+		
+		p {
+		    color: black;
+			text-align: center;
+		}
+		
+		li {
+		    color: #623AA2;
+		}
+		
+		#caja_principal {
+			width: 960px;
+			margin: 15px auto;
+			text-align: center;
+			padding: 5px;
+
+		}
+
+		#cabecera {
+			background: white;
+			border: 1px;
+			padding: 20px;
+		}
+
+		#menu {
+			background: yellow;
+			padding: 40px;
+			width: 950px;
+		}
+
+		#menu li {
+			display: inline-block;
+			list-style: none;
+			padding: 5px;
+			font: bold 14px verdana, sans-serif;
+		}
+		
+		#area_principal{
+		    background: white;
+			float: left;
+			width: 950px;
+			display: inline-block;
+			padding: 40px; /*separacion del elemento*/
+		}
+		
+	    #area_principal img{
+		    width: 590px;
+			
+		}
+		
+		#barra_lateral{
+		    float: left;
+			width: 210px;
+			padding: 10px;
+			background: #ff750f;
+			margin: 10px 0px; /*separacion de la caja*/
+			text-align: center;
+		}
+		
+		#pie_pagina{
+		    background: yellow(0, 128, 0, 0.3);
+			clear: both;
+			text-align: center;
+			padding: 20px;
+			border-top: 2px solid red;
+		
+		}
+
+	</style>
+ </head>
+
+<body>
+    <div id="caja_principal">
+        <header id="cabecera">
+            <h1>Proyecto de Aseguramiento de la Calidad de Software </h1>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="PSP0.html">PSP0</a></li>
+				<li><a href="PSP1.html">PSP1</a></li>
+				
+            </ul>
+        </nav>
+        <section id="area_principal">
+            <img src="adoptaunamigo.png">
+            <article>
+			    <h2>Adopción de mascotas</h2>
+				<!--<h2>Subtitulo de la primera entrada</h2>
+				-->
+				<p>Se requiere una aplicación web para personas interesadas en la Cuidad de México que deseen  adoptar o dar en adopción una mascota.</p>
+				<p>Esta aplicación permitirá a los usuarios que quieran adoptar y dar en adopción, capturar sus datos en la plataforma para que queden registrados y almacenados en la página web.</p>
+				<p>Para ser un usuario en la plataforma “Adopta un Amigo” en primera instancia se le solicitara un pre registro el cual permitirá almacenar
+				la información de cada uno de  ellos y saber los miembros que conforman la plataforma web.</p>
+				<p>Los datos  solicitados serán:
+				<ol>
+					<li>Nombre</li>
+					<li>Apellido Paterno</li>
+					<li>Apellido Materno</li>
+					<li>Fecha Nacimiento</li>
+					<li>Sexo</li>
+					<li>Correo</li>
+					<li>Nacionalidad</li>
+					<li>Contraseña</li>
+					<li>Validar Contraseña</li>
+					<li>Fecha de Ingreso</li>
+					<li>Hora</li>	
+				</ol>
+                <p>De esta manera se tendrá con el usuario que ha ingresado a la plataforma  
+			un primer acercamiento de qué tipo de usuarios se irán registrando y las peticiones  que desean realizar en la plataforma.</p>
+			</article>
+        <footer id="pie_pagina">
+            Copyrigth &copy; 2022
+        </footer>
+    </div>
+</body>
+
+</html>
